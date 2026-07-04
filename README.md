@@ -6,18 +6,85 @@
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![React](https://img.shields.io/badge/React-17.0-blue)
 ![MongoDB](https://img.shields.io/badge/MongoDB-5.0+-green)
-![License](https://img.shields.io/badge/License-MIT-blue)
+![UI](https://img.shields.io/badge/UI-Glassmorphism-purple)
 
-**A comprehensive complaint management platform for educational institutions with role-based access control, real-time tracking, and automated workflows.**
-
-[Features](#-features) • [Tech Stack](#-tech-stack) • [Installation](#-installation) • [Usage](#-usage) • [API Documentation](#-api-documentation) • [Contributing](#-contributing)
+**A premium, next-generation complaint management platform for educational institutions featuring a stunning glassmorphic UI, role-based access control, and automated workflows.**
 
 </div>
 
 ---
 
-##  Screenshots
+## 🌟 What's New? (Premium UI Upgrade)
+The platform has been completely revamped with a **modern glassmorphism design system**:
+- **Stunning Aesthetics:** Vibrant gradients, blurred translucent backgrounds, and modern typography (Inter font).
+- **Micro-animations:** Smooth hover effects, focus states, and dynamic components for a highly engaging user experience.
+- **Enhanced Complaint Form:** A fully redesigned, interactive complaint submission experience that feels premium and intuitive.
+- **Streamlined Workflow:** Run the entire MERN stack (frontend and backend) concurrently with a single command!
 
+## ✨ Key Features
+### 🔐 Authentication & Authorization
+- **Role-Based Access Control** - Dedicated, tailored dashboards for Students, Staff, and Administrators.
+- **JWT Security** - Secure session handling and bcrypt password encryption.
+
+### 📝 Complaint Management
+- **Smart Submission** - Submit complaints with urgency levels, categories, and image evidence uploads.
+- **Real-Time Tracking** - Transparent status workflow: `Pending` → `In-progress` → `Resolved`.
+
+### 👨‍💼 Admin & Staff Operations
+- **Staff Dashboard** - Manage assigned complaints and add resolution photos/remarks instantly.
+- **Admin Analytics** - Comprehensive oversight with real-time metrics, user lists, and staff assignment tools.
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React, React Router, Bootstrap, Custom CSS (Glassmorphism & Gradients)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB, Mongoose
+- **Utilities:** Multer (File Uploads), Nodemailer (Emails), JWT
+
+---
+
+## 🚀 Quick Start Guide
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/SinghManavi-99/camplaint_management.git
+cd camplaint_management
+```
+
+### 2. Environment Setup
+Create a `.env` file in the `server` directory and add the following variables:
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+PORT=5000
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_app_password
+ADMIN_EMAIL=admin@campus.edu
+ADMIN_PASSWORD=secure_admin_password
+```
+
+### 3. Install & Run (The Easy Way)
+We have greatly simplified the developer experience. From the **root folder**, simply run:
+
+```bash
+# 1. Install dependencies for the root, frontend, and backend all at once
+npm run install-all
+
+# 2. Start both the frontend and backend concurrently
+npm start
+```
+
+*The Client will open at `http://localhost:3000` and the Server will run at `http://localhost:5000`.*
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your amazing features or UI enhancements. Ensure you maintain the premium aesthetic established in `index.css`.
+
+<div align="center">
+Made with ❤️ to improve campus life.
+</div>
 <div align="center">
   <img 
     src="https://github.com/user-attachments/assets/48127d29-d387-4ce2-85cb-0a2356d05b18"
