@@ -184,18 +184,11 @@ cd smart-campus-complaint-system
 
 ### 2. Install Dependencies
 
-Install server dependencies:
+Install all dependencies (root, server, and client) at once using the setup script:
 
 ```bash
-cd server
-npm install
-```
-
-Install client dependencies:
-
-```bash
-cd ../client
-npm install
+# From the root directory (smart-campus-complaint-system)
+npm run install-all
 ```
 
 ### 3. Configure Environment Variables
@@ -237,19 +230,12 @@ mongod
 
 ### 5. Run the Application
 
-**Start the backend server:**
+**Start both backend and frontend concurrently:**
 ```bash
-cd server
+# From the root directory (smart-campus-complaint-system)
 npm start
-# Server runs on http://localhost:5000
 ```
-
-**Start the frontend client (in a new terminal):**
-```bash
-cd client
-npm start
-# Client runs on http://localhost:3000
-```
+The server will run on `http://localhost:5000` and the client will run on `http://localhost:3000`.
 
 The application will automatically open in your default browser at `http://localhost:3000`.
 
