@@ -17,6 +17,10 @@
 ## 🌟 Overview
 The Campus Complaint Management System is a comprehensive platform designed to streamline issue reporting and resolution within an educational institution. It provides dedicated interfaces for Students, Staff, and Administrators to ensure transparent and quick problem-solving.
 
+<div align="center">
+  <img src="assets/hero_ui.png" alt="Campus Complaint System UI" width="800" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin: 20px 0;"/>
+</div>
+
 This project features a **modern glassmorphism design system** with vibrant gradients, blurred translucent backgrounds, and engaging micro-animations.
 
 ## ✨ Key Features
